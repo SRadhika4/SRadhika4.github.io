@@ -1,0 +1,159 @@
+:root {
+	--dark: #7d1384b7;
+	--darker: #722197;
+	--darkest: #2f0b45;
+	--grey: #6b7280c3;
+    --greydark: #3f3f40;
+    --greydarkest: #2d2d2d;
+	--pink: #EC4899;
+	--purple: #8B5CF6;
+	--light: #EEE;
+    --greydark1: #3f3f40c7;                  }
+
+
+
+
+    /* HTML SETTINGS  */
+        html{background-image: 
+            url( "bg.jpg" ) ;
+            
+        background-size:auto ;
+        background-attachment: fixed;
+        color: #EEE;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    header{ padding: 2rem 1reM}
+    
+    hr { background-color: #EEE;
+         height: 3px;
+        border-color: #EEE;
+        }
+
+        /* BODY SETTINGS */
+    body{
+        display: flex ;
+        background-attachment: scroll;
+        flex-direction: column;
+        min-height: 100vh;
+        background-color: var(--greydark1);
+        width:1000px;
+        padding: 20px;
+        margin:auto;
+        font-size: 1.25rem;
+    }
+
+    /* INPUT BUTTON SETTINGS */
+    input{
+        margin:10px;
+        flex:100px;
+        border-radius: 1rem;
+        padding: 10px;
+        font-size: medium;
+        color:var(--light);
+        font-weight: 400;
+        font-family: 'Montserrat', sans-serif;
+        border: #EEE;
+    }
+
+    /* TASK ENTRY */
+    #new_task{
+        
+        background-color: var(--greydarkest);
+        width: 350px;
+        height: 35px;
+    
+    }
+    
+    #new_task::placeholder{
+        color:#EEE;}
+        
+        /* TASK LIST  */
+        /* .content{
+            width: 520px;
+            height: 30px;
+            align-items:normal;
+            background-color: var(--grey) !important;
+
+        } */
+
+        .text{
+            width: 520px;
+            height: 30px;
+            align-items:normal;
+            background-color: var(--grey) !important;
+
+        }
+        
+        #tasks .task{
+            display:flex ;
+            align-items: center;
+            justify-content: space-between;
+            padding:0px;
+            margin-left: 50px;
+            margin-top: auto;
+            margin-bottom: auto;
+            margin-right: 50px;}
+
+        #check{
+            margin-top: auto;
+            margin-bottom: auto;
+            height: 30px; width: 30px;
+        }
+
+        .content + #check:checked{
+        
+            text-decoration: line-through;
+            background-color: #7d1384b7;
+        }
+
+        /* BUTTONS */
+        #task-submit, .edit, .delete{
+            background-image: linear-gradient(to bottom, var(--pink), var(--darker));
+            cursor:pointer;
+            transition:0.4s;
+            height: 35px;
+            /* padding: 5; */
+            padding-bottom: 30px;
+
+            
+        }
+        
+        #task-submit:hover, .edit:hover{
+        background-image: linear-gradient(to bottom, rgb(32, 32, 180), var(--darker));
+    }
+
+    #task-submit:active, .edit:active{
+        background-image: linear-gradient(to bottom, rgb(32, 32, 180), var(--darker));
+        opacity: 0.5;}
+        
+        
+    /* DELETE BUTTON */
+    .delete{
+        color: crimson;
+        background-image:none ;
+        background-color:transparent   ;
+        font-weight: bolder;
+        text-transform: uppercase;
+        font-synthesis:weight;
+        
+    } 
+    
+    .delete:hover{
+        color: rgb(135, 13, 37);
+        background-image: var(--greydark); 
+        font-weight: bolder;
+        text-transform: uppercase;
+    } 
+
+    .delete:action{
+        color: rgb(135, 13, 37);
+        opacity: 0.5;
+        background-image: var(--greydark); 
+        
+        text-transform: uppercase;
+    } 
+
+   
+   
+   
