@@ -2,7 +2,7 @@
 	--dark: #7d1384b7;
 	--darker: #722197;
 	--darkest: #2f0b45;
-	--grey: #6b7280c3;
+	--grey: #6b728028;
     --greydark: #3f3f40;
     --greydarkest: #2d2d2d;
 	--pink: #EC4899;
@@ -38,7 +38,7 @@
         min-height: 100vh;
         background-color: var(--greydark1);
         width:1000px;
-        padding:20px;
+        padding: 20px;
         margin:auto;
         font-size: 1.25rem;
     }
