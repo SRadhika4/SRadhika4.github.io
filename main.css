@@ -37,8 +37,8 @@
         flex-direction: column;
         min-height: 100vh;
         background-color: var(--greydark1);
-        width:auto;
-        padding: 100px;
+        width:1000px;
+        padding: 20px;
         margin:auto;
         font-size: 1.25rem;
     }
