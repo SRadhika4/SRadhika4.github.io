@@ -38,7 +38,7 @@
         min-height: 100vh;
         background-color: var(--greydark1);
         width:1000px;
-        padding: 20px;
+        padding:20px;
         margin:auto;
         font-size: 1.25rem;
     }
